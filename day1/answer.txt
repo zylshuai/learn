@@ -1,0 +1,15 @@
+1. Boolean,Number,String,null,undefined,symbol,BigInt
+2. 16
+3. Array,Map,Set
+4. B
+5. B
+6. 7
+7. 5
+8. for...in用于取对象的key值和数组的下标,for...of用于取Array和其他可迭代对象中的元素.for...in可以用来深拷贝,把一个对象值赋值给另一个对象,或者在一些复杂业务中,取出key值做一些复杂操作.for...of的话,简单来说可以做累加数组元素的操作.
+9. label语句可以给某个循环做标记,方便后续跳出这个标记的循环.break可以终结整个循环,continue可以跳过本次循环.他们的主要区别是break跳过label标记的整个循环,continue终结所在循环跳到label所标记循环的下一次循环.
+10. const value = document.getelementById('user').value;console.log(value);
+11. 
+index.ts
+let num: number = 10; 
+
+tsc ./index.ts --watch

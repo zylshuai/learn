@@ -1,0 +1,73 @@
+明白！你需要一份基于 day1 文档知识点，结合实际应用、理解、代码分析等多种题型的综合测试题。请看下面这份复合型测试题：
+
+---
+
+## Day1 综合测试题
+
+### 一、填空题
+
+1. JavaScript 的基础类型有：_______、_______、_______、_______、_______、_______、_______。
+2. `parseInt('0x10')` 的结果是 _______。
+3. 能被 `for...of` 遍历的对象有 _______、_______、_______ 等。
+
+---
+
+### 二、选择题
+
+4. 下列哪个表达式的结果为假（false）？  
+A. "false"  
+B. 0  
+C. []  
+D. "0"
+
+5. 关于 try...catch...finally，以下说法正确的是：  
+A. finally 语句块不会被执行  
+B. finally 的 return 会覆盖 try/catch 的 return  
+C. catch 可以捕获 finally 里的异常  
+D. try 语句块不能有 return
+
+---
+
+### 三、代码阅读题
+
+6. 阅读下列代码，写出控制台输出内容：
+```javascript
+let x = 5;
+out: for(let i = 0; i < 3; i++) {
+  for(let j = 0; j < 3; j++) {
+    if(j === 1) {
+      x += 2;
+      break out;
+    }
+  }
+}
+console.log(x);
+```
+
+7. 阅读下列代码，写出输出结果：
+```javascript
+function test(a, b) {
+  return arguments[0] + arguments[1];
+}
+console.log(test(2, 3));
+```
+
+---
+
+### 四、简答题
+
+8. 简述 for...in 和 for...of 的区别，并各举一个适用场景。
+
+9. 说明 label 语句在多层循环中的作用，并举例说明 break 和 continue 配合 label 的不同效果。
+
+---
+
+### 五、实际操作题
+
+10. 请写一段原生 JS 代码，获取页面上 id 为 "user" 的 input 输入框的值，并打印到控制台。
+
+11. 写出一段 TypeScript 代码，演示如何用 tsc --watch 监听并编译单个 ts 文件。
+
+---
+
+如需参考答案或讲解，随时告诉我！
